@@ -78,7 +78,7 @@ const Navbar = () => {
         <div className="center">
           <div className="item">
             <Link className="link" to="/">
-              Shopping time
+              NovaBrand
             </Link>
           </div>
         </div>
