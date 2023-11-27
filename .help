@@ -1,0 +1,18 @@
+//install npm (first thing you must have do is install node-moduls)
+npm i
+// how to push and pull project
+--> pull fist (should pull and merge code first)
+git pull
+-->Next, add all file
+git add .
+--> remember commit and command
+git commit -m "write command"
+--> Then push
+git push
+
+
+
+
+
+
+

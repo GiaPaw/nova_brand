@@ -1,0 +1,103 @@
+// Checkout.scss
+.Checkout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+  
+    .CheckoutHeader {
+        text-align: center;
+      margin-bottom: 20px;
+  
+      h1 {
+        font-size: 24px;
+      }
+    }
+  
+    .ItemContainer {
+      width: 100%;
+      max-width: 800px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .CartItem {
+      display: flex;
+      align-items: center;
+      border: 1px solid #ccc; /* Thêm đoạn này để tạo viền */
+        padding: 10px; /* Thêm đoạn này để tạo khoảng cách bên trong */
+        border-radius: 10px;
+        .DeleteButton {
+      background-color: #ff4d4d;
+      color: #fff;
+      border: none;
+      padding: 5px 10px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: #b30000;
+      }
+    }
+  
+      img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        margin-right: 10px;
+      }
+  
+      .ItemDetails {
+        flex: 1;
+  
+        h2 {
+          margin: 0;
+          font-size: 18px;
+        }
+  
+        p {
+          margin: 5px 0;
+          font-size: 14px;
+          color: #888;
+        }
+      }
+    }
+  
+    .Total {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+      max-width: 800px;
+      margin-top: 20px;
+      font-weight: bold;
+      font-size: 18px;
+  
+      h2 {
+        margin: 0;
+        color: #888;
+      }
+  
+      p {
+        font-size: 50px;
+        margin-left: 10px;
+      }
+    }
+  
+    .CheckoutButton {
+      padding: 10px 20px;
+      background-color: #52dc36;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+  
