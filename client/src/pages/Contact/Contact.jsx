@@ -20,9 +20,9 @@ const Contact = () => {
       <div className="contact-details">
         <div className="contact-info">
           <h3>Thông tin liên hệ</h3>
-          <p>Email: example@email.com</p>
-          <p>Số điện thoại: (123) 456-7890</p>
-          <p>Địa chỉ: 123 Đường ABC, Thành phố XYZ</p>
+          <p>Email:huynhngocgiabao1610@gmail.com</p>
+          <p>Số điện thoại: 0125423669</p>
+          <p>Địa chỉ: 68 DangThuyTram Q.BinhThanh TP.HCM</p>
         </div>
         <div className="contact-form">
           <h3>Gửi tin nhắn</h3>
